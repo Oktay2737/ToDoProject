@@ -2,11 +2,11 @@ package toDoTask.step_definitions;
 
 
 import io.appium.java_client.MobileElement;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
 import toDoTask.Pages.StartPage;
 import toDoTask.utilities.BrowserUtilities;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import toDoTask.utilities.Driver;
 
 public class Task5StepsDefs {

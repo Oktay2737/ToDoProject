@@ -43,9 +43,9 @@ public class Task1StepsDefs {
     }
 
     @Then("new Task must be created and {string} task must be seen on the task list")
-    public void new_Task_must_be_created_and_task_must_be_seen_on_the_task_list(String text) {
-        String actual = taskListPage.getTaskTitle(text).getText();
-        Assert.assertEquals(actual, text);
+    public void new_Task_must_be_created_and_task_must_be_seen_on_the_task_list(String ExpectedText) {
+        String actualText = taskListPage.getTaskTitle(ExpectedText).getText();
+        Assert.assertEquals(ExpectedText, actualText);
 
     }
 
